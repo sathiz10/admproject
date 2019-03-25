@@ -1941,7 +1941,7 @@ __webpack_require__.r(__webpack_exports__);
 var PilotService = /** @class */ (function () {
     function PilotService(firebase) {
         this.firebase = firebase;
-        this.selectedRegister = new _pilot_model__WEBPACK_IMPORTED_MODULE_3__["Pilot"]();
+        this.selectedPilot = new _pilot_model__WEBPACK_IMPORTED_MODULE_3__["Pilot"]();
     }
     PilotService.prototype.insertPilot = function (pilot) {
         this.pilotList.push({
@@ -3088,7 +3088,7 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 var environment = {
-    production: false,
+    production: true,
     firebaseconfig: {
         apiKey: "AIzaSyBmzpCsr_ddknKq9-817LOTrSJGwFT3iEE",
         authDomain: "adm-register-proof.firebaseapp.com",
